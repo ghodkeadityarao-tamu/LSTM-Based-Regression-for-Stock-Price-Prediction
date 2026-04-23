@@ -44,10 +44,10 @@ Two deep learning models were implemented:
 
 ## Results
 
-| Model         | Test MAE (USD) |
-| ------------- | -------------- |
-| Baseline LSTM | 24.45          |
-| Enhanced LSTM | 18.44          |
+| Model         | Test MAE (USD) | Test MSE (Scaled) | Test MAE (Scaled) |
+| ------------- | -------------- | ------------------| ----------------- |
+| Baseline LSTM | 24.45          | 0.0245            | 0.1420            |
+| Enhanced LSTM | 18.44          | 0.0133            | 0.1071            |
 
 The enhanced model achieved better performance by learning deeper temporal patterns.
 
